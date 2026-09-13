@@ -1,5 +1,6 @@
 name: Stage the app
 
+# This workflow is to trigger on pull requests that have a certain label
 on:
     pull_requests:
         types: [labeled]
